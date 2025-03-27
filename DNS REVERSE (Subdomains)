@@ -9,7 +9,7 @@ lista = []
 for s in wordlist:
 try:
 a = dns.resolver.query('{}.page.com'.format(s),'A')
-lista.append('{}.achirou.com'.format(s))
+lista.append('{}.page.com'.format(s))
 except:
 pass
 if len(lista) > 0:
